@@ -119,7 +119,7 @@ Responsável por relacionar eventos, músicas e pedidos.
 
 ## Tela Inicial
 
-![Dashboard Inicial](imagens/dashboard_home.png)
+![Dashboard Inicial](imagens/dashboard_inicial.png)
 
 ---
 
@@ -159,12 +159,11 @@ Os artistas mais recorrentes no ranking foram:
 
 ![Duração x Popularidade](imagens/duracao_vs_views.png)
 
-A maior concentração de visualizações ocorre em músicas com duração entre 2min30s e 4min.
-
-## Distribuição por Gênero
+## Relação entre Duração e Popularidade e Distribuição por Gênero
 
 ![Gêneros](imagens/generos.png)
 
+A maior concentração de visualizações ocorre em músicas com duração entre 2min30s e 4min.
 O gênero Pop apresentou predominância na amostra analisada.
 
 ## Seguidores versus Visualizações
