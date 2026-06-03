@@ -1,3 +1,11 @@
+-- =======================================================
+-- SCRIPT DE INICIALIZAÇÃO UNIFICADO - PROJETO SONORA
+-- =======================================================
+DROP DATABASE IF EXISTS sonora;
+CREATE DATABASE sonora CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE sonora;
+
+-- (Mantenha o resto do código que já está no arquivo abaixo disso)
 -- MySQL dump 10.13  Distrib 8.0.43, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: sonora
@@ -365,3 +373,11 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2026-05-31 23:40:50
+
+-- =======================================================
+-- ATUALIZAÇÃO AUTOMÁTICA DO CATÁLOGO (inclusao.sql)
+-- =======================================================
+INSERT INTO youtube_musics (id, name, singer, url, is_active)
+SELECT UUID(), title, channel, channel_url, 1
+FROM youtube_hits_2025
+WHERE title NOT IN (SELECT name FROM youtube_musics);
