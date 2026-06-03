@@ -70,7 +70,7 @@ Disponível na plataforma Kaggle.
 
 ## Modelo Entidade-Relacionamento
 
-![Modelo ER](images/modelo_er.png)
+![Modelo ER](imagens/modelo_er.png)
 
 ## Relacionamentos
 
@@ -119,7 +119,7 @@ Responsável por relacionar eventos, músicas e pedidos.
 
 ## Tela Inicial
 
-![Dashboard Inicial](images/dashboard_home.png)
+![Dashboard Inicial](imagens/dashboard_home.png)
 
 ---
 
@@ -127,7 +127,7 @@ Responsável por relacionar eventos, músicas e pedidos.
 
 ## Top 10 Músicas Mais Populares
 
-![Top 10](images/top10.png)
+![Top 10](imagens/top10.png)
 
 As músicas mais populares identificadas foram:
 
@@ -139,13 +139,13 @@ As músicas mais populares identificadas foram:
 
 ## Distribuição de Visualizações
 
-![Distribuição](images/distribuicao_views.png)
+![Distribuição](imagens/distribuicao_views.png)
 
 A maior parte das músicas apresenta mais de um milhão de visualizações.
 
 ## Artistas Dominantes
 
-![Artistas](images/artistas.png)
+![Artistas](imagens/artistas.png)
 
 Os artistas mais recorrentes no ranking foram:
 
@@ -157,25 +157,25 @@ Os artistas mais recorrentes no ranking foram:
 
 ## Relação entre Duração e Popularidade
 
-![Duração x Popularidade](images/duracao_vs_views.png)
+![Duração x Popularidade](imagens/duracao_vs_views.png)
 
 A maior concentração de visualizações ocorre em músicas com duração entre 2min30s e 4min.
 
 ## Distribuição por Gênero
 
-![Gêneros](images/generos.png)
+![Gêneros](imagens/generos.png)
 
 O gênero Pop apresentou predominância na amostra analisada.
 
 ## Seguidores versus Visualizações
 
-![Seguidores x Visualizações](images/seguidores_views.png)
+![Seguidores x Visualizações](imagens/seguidores_views.png)
 
 Foi observada correlação muito baixa entre número de seguidores e quantidade de visualizações.
 
 ## Colaborações versus Músicas Solo
 
-![Colaborações](images/colaboracoes.png)
+![Colaborações](imagens/colaboracoes.png)
 
 As colaborações apresentaram maior média de visualizações.
 
@@ -185,7 +185,7 @@ As colaborações apresentaram maior média de visualizações.
 
 ## Gerenciamento de Músicas
 
-![CRUD Músicas](images/crud_musicas.png)
+![CRUD Músicas](imagens/crud_musicas.png)
 
 Funcionalidades:
 
@@ -196,7 +196,7 @@ Funcionalidades:
 
 ## Gerenciamento de Eventos
 
-![CRUD Eventos](images/crud_eventos.png)
+![CRUD Eventos](imagens/crud_eventos.png)
 
 Funcionalidades:
 
@@ -207,7 +207,7 @@ Funcionalidades:
 
 ## Registro de Pedidos
 
-![Pedidos](images/pedidos.png)
+![Pedidos](imagens/pedidos.png)
 
 Permite associar músicas a eventos e definir características da execução.
 
@@ -254,7 +254,7 @@ GROUP BY e.id;
 
 ## Arquitetura da Solução
 
-![Arquitetura](images/arquitetura.png)
+![Arquitetura](imagens/arquitetura.png)
 
 Fluxo de funcionamento:
 
