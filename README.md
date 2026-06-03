@@ -155,10 +155,6 @@ Os artistas mais recorrentes no ranking foram:
 - Sabrina Carpenter;
 - Taylor Swift.
 
-## Relação entre Duração e Popularidade
-
-![Duração x Popularidade](imagens/duracao_vs_views.png)
-
 ## Relação entre Duração e Popularidade e Distribuição por Gênero
 
 ![Gêneros](imagens/generos.png)
@@ -252,8 +248,6 @@ GROUP BY e.id;
 # Integração entre MySQL e Dashboard
 
 ## Arquitetura da Solução
-
-![Arquitetura](imagens/arquitetura.png)
 
 Fluxo de funcionamento:
 
