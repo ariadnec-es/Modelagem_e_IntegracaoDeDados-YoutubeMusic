@@ -150,7 +150,7 @@ A maior parte das músicas apresenta mais de um milhão de visualizações.
 Os artistas mais recorrentes no ranking foram:
 
 - ROSÉ;
-- Bruno Mars;
+- Lady Gaga;
 - Billie Eilish;
 - Sabrina Carpenter;
 - Taylor Swift.
